@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Sen;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.live-filter {
+  width: 35rem;
+  box-shadow: 1rem 1rem 2rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  margin: 3rem 0;
+  background: #fff;
+}
+
+.search {
+  background-color: #432c7a;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.search p:first-child {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.search p:last-of-type {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.search input {
+  width: 50%;
+  padding: 0.8rem 0.5rem;
+  outline: unset;
+  border-radius: 1rem;
+  border: unset;
+}
+
+::placeholder {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.user-info {
+  padding: 2rem;
+  height: 32rem;
+  overflow-y: auto;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.user-data img {
+  max-width: 100%;
+  width: 6rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.user-data div {
+  text-align: start;
+}
+
+.user-data p {
+  text-transform: capitalize;
+}
+
+.hide {
+  display: none;
+}
